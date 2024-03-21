@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-hailer - We serve your purpose</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #061850;
+        color: #fff;
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+      .cta-button {
+        display: inline-block;
+        background-color: #ffaf00;
+        color: #061850;
+        font-size: 1.2em;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      .cta-button:hover {
+        background-color: #ffd966;
+      }
+      .features {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .feature {
+        flex: 1;
+        margin: 0 10px;
+        padding: 20px;
+        background-color: #192d6c;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .feature h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      .feature p {
+        font-size: 1.1em;
+      }
+
+      #logo {
+        width: 90px;
+        height: 90px;
+      }
+      .about-section {
+        margin-top: 50px;
+      }
+      .about-content {
+        margin-bottom: 30px;
+        text-align: left;
+      }
+      nav {
+        background-color: #061850;
+        padding: 10px 0;
+        margin: 0 20px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .landing {
+        text-align: center;
+        display: block;
+        width: 40%;
+        height: 220px;
+        padding: auto;
+        margin-top: 20px;
+      }
+      .landing img {
+        width: 240%;
+      }
+      #footer {
+        background-color: #6092d3;
+      }
+
+      #footer_div {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+      }
+
+      #sm_facebook {
+        margin-left: 40px;
+      }
+
+      #sm_linkedin {
+        margin-left: 40px;
+      }
+
+      #sm_twitter {
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div class="container" id="home">
+      <li>
+        <a href="#home"><img src="./assets/images/img_1.png" id="logo" /></a>
+      </li>
+      <h1>Welcome to E-hailer</h1>
+      <p>
+        We serve your purpose - making transportation easy and convenient for
+        you.
+      </p>
+      <a href="#" class="cta-button">Get Started</a>
+
+      <div class="landing">
+        <img src="./assets/images/landingpage.png" id="landing" />
+      </div>
+
+      <div class="features" id="features">
+        <div class="feature">
+          <h2>Easy Booking</h2>
+          <p>Book your ride with just a few taps on your phone.</p>
+        </div>
+        <div class="feature">
+          <h2>Safe and Reliable</h2>
+          <p>Our drivers are carefully vetted to ensure your safety.</p>
+        </div>
+        <div class="feature">
+          <h2>24/7 Support</h2>
+          <p>
+            Have questions or concerns? Our support team is available around the
+            clock.
+          </p>
+        </div>
+      </div>
+      <div class="about-section" id="about">
+        <h2>About</h2>
+        <div class="about-content">
+          <p>
+            The vision for this application was birthed through first-hand
+            experience of how clients and drivers alike suffer terrible
+            experiences from costly fares, harassment by security agents, meager
+            profit made by drivers, vehicle theft and loss of personal
+            belongings, the list is endless. The E-Hailer Rider App brings you a
+            seamless experience where you can enjoy the best benefits while
+            being rest assured of top-quality service.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div id="footer_div">
+        <div id="sm_links">
+          <a href="https://web.facebook.com/home.php" id="sm_facebook">
+            <img
+              src="./assets/images/facebook.png"
+              alt="facebook"
+              width="40px"
+              height="40px"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/eric-ibu-78b927182/"
+            id="sm_linkedin"
+          >
+            <img
+              src="/assets/images/linkedin.png"
+              alt="linkedin"
+              width="40px"
+              height="40px"
+          /></a>
+          <a href="https://twitter.com/kingmartini1" id="sm_twitter">
+            <img
+              src="/assets/images/twitter.png"
+              alt="twitter"
+              width="40px"
+              height="40px"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
